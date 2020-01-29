@@ -1,0 +1,25 @@
+header {
+    min-height: 200px;
+}
+
+#content {
+    min-height: 600px;
+}
+
+footer{
+    min-height: 90px;
+}
+
+.row{
+    margin: 1%;
+}
+
+.encart {
+    min-height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);;
+}
+
+section {
+    background-image: url(../tp/tp/img/fond2.jpg);
+}
+

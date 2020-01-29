@@ -1,0 +1,256 @@
+<!doctype html>
+< lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+
+    <title>Ima'djinn</title>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">
+                            <img src="tp/tp/img/icone_noir.png" width="30" height="30" class="d-inline-block align-top" alt="logo">
+                            Ima'Djinn
+                          </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+
+                      </ul>
+                        <a class="btn btn-light nav-link" href="gallerie.html">Gallerie</a>
+                        <a class="btn btn-light nav-link" href="#">Tarifs</a>
+                        <a class="btn btn-light nav-link" href="#">Contact</a>
+                        <a class="btn btn-light nav-link" href="#">Compte</a>
+                    
+                    </div>
+                </nav>
+
+            
+        <header class="row bg-dark d-flex flex-column">
+          <div class="row justify-content-center align-items-center mt-4 mb-0">
+              <img src="tp/tp/img/logo_blanc.png" class="img-fluid" alt="Ima'Djinn">
+          </div>
+            
+          <div class="row my-0">
+            <div class="col-md-4 align-self-center">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Gallerie</li>
+                    </ol>
+                  </nav>
+            </div>
+              
+          </div>
+            
+            
+          
+        </header>   
+
+        <div id="content" class="row">
+
+            <nav class="order-2 order-sm-1 col-sm-4 col-md-3 bg-light d-flex flex-column justify-content-between align-items-stretch ">
+                <div class="my-2">
+                    <div>
+                        <button type="button" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#modal">Inscrivez-vous à notre newsletter</button>
+                    </div>
+                </div>
+                <div class="my-2">
+                    <div class="m-1">
+                        <a class="btn btn-outline-secondary btn-block" href="#" role="button">Vos questions, nos réponses</a>
+                    </div>
+                    <div class="m-1">
+                        <a class="btn btn-outline-secondary btn-block" href="#" role="button">Retours et échanges</a>
+                    </div>
+                    <div class="m-1">
+                        <a class="btn btn-outline-secondary btn-block" href="#" role="button">Qualité Ima'Djinn</a>
+                    </div>
+                </div>      
+            </nav>
+<!-- Modal -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Inscription à la newsletter</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <p>Vous y êtes presque ! Merci d'indiquer votre email !</p>
+        <form>
+            <div class="input-group">
+                <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="input-group-append">
+                    <span class="input-group-text">@</span>
+                </div>
+                <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="input-group-append">
+                    <span class="input-group-text">.</span>
+                </div>
+                <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="invalid-tooltip">
+                  Mauvais e-mail.
+                </div>
+            </div>
+        </form>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Je m'inscris !</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+            <div class="order-1 order-sm-2 col-sm-8 col-md-9" style="background-color: white;">
+                <div class="row">
+                   <h2 class="display-4 text-dark"><strong>Contact</strong></h2>
+                </div>
+                
+                  <form class="row d-flex flex-column">
+                      
+                    <div class="row">
+
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <div class="form-inline flex-fill">
+                                <label class="mr-2" for="nom">Nom</label>
+                                <input type="text" class="form-control flex-fill" id="nom" required>
+                              </div>
+                      </div>
+                    </div>
+                        
+                      <div class="col-md-6">
+                          <div class="form-inline">
+                              <label class="mr-2" for="prenom">Prenom</label>
+                              <input type="text" class="form-control flex-fill" id="prenom" required>
+                            </div>
+                          </div>
+                      
+                            
+                    </div>
+
+
+                    <div class="row">
+                        <div class="form-inline flex-fill">
+                            <label class="mr-2" for="email">Email</label>
+                            <div class="input-group flex-fill">
+                                <input type="text" class="form-control flex-fill" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                                <div class="input-group-append">
+                                    <span class="input-group-text">@</span>
+                                </div>
+                                <input type="text" class="form-control flex-fill" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                                <div class="input-group-append">
+                                    <span class="input-group-text">.</span>
+                                </div>
+                                <input type="text" class="form-control flex-fill" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                                <div class="invalid-tooltip">
+                                  Mauvais e-mail.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                          
+
+                          
+                        
+                         <div class="row">
+                            <div class="form-inline flex-fill">
+                                <label class="mr-2" for="objet">Objet</label>
+                                <select class="form-control custom-select flex-fill" id="objet" required>
+                                  <option value="0">Choisissez ...</option>
+                                  <option value="1">Demande d'informations</option>
+                                  <option value="2">Demande de devis</option>
+                                  <option value="3">Proposer une oeuvre</option>
+                                  <option value="4">Autres demandes</option>
+                                </select>
+                              </div>
+                         </div>
+                           
+                              
+                            <div class="row">
+                                <div class="form-inline flex-fill">
+                                    <label class="mr-2" for="message">Message</label>
+                                    
+                                        <span class="badge badge-pill badge-secondary mr-2" data-toggle="tooltip"
+                                        data-placement="top" 
+                                        title="Merci de renseigner votre message avec un maximum de 250 caractères">?</span>
+                                      
+                                    
+                                    <textarea class="form-control flex-fill" id="message" rows="5" required></textarea>
+                                  </div>
+                            </div>
+                         
+
+                          
+                        <div class="row">
+                            <button type="submit" class="btn btn-primary">Envoyer</button>
+                        </div>
+                          
+                        </form>
+       
+                  
+               
+                  
+                </div>
+
+
+                
+         
+
+        </div> 
+
+        <footer class="row bg-dark d-flex align-items-center">
+            <div class="order-2 order-sm-1 col-sm-3">
+                <div class="text-white text-center"><p>Tous droits réservés Ima'djinn</p></div>
+            </div>
+            <div class="order-1 order-sm-2 col-sm-8 offset-sm-1 col-md-5 offset-md-4">
+                <div class="row">
+                    <div class="col-sm-4 col-md-6">
+                        <div class="mb-1">
+                                <button type="button" class="btn btn-outline-light btn-block">Mentions légales</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-3">
+                        <div class="mb-1">
+                            <button type="button" class="btn btn-outline-light btn-block">CGV</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-3">
+                        <div class="mb-1">
+                                <button type="button" class="btn btn-outline-light btn-block">FAQ</button>
+
+                        </div>
+                    </div>    
+                </div>   
+            </div>
+        </footer> 
+                   
+        
+            
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+  </body>
+  </html>
